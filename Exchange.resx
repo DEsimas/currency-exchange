@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="originalTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 43</value>
+  </data>
+  <data name="originalTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="originalTB.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="originalTB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;originalTB.Name" xml:space="preserve">
+    <value>originalTB</value>
+  </data>
+  <data name="&gt;&gt;originalTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;originalTB.Parent" xml:space="preserve">
+    <value>convertGB</value>
+  </data>
+  <data name="&gt;&gt;originalTB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="staticLbl1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="staticLbl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="staticLbl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 43</value>
+  </data>
+  <data name="staticLbl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="staticLbl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="staticLbl1.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;staticLbl1.Name" xml:space="preserve">
+    <value>staticLbl1</value>
+  </data>
+  <data name="&gt;&gt;staticLbl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staticLbl1.Parent" xml:space="preserve">
+    <value>convertGB</value>
+  </data>
+  <data name="&gt;&gt;staticLbl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="currency2Lbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currency2Lbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="currency2Lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 43</value>
+  </data>
+  <data name="currency2Lbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="currency2Lbl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="currency2Lbl.Text" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="&gt;&gt;currency2Lbl.Name" xml:space="preserve">
+    <value>currency2Lbl</value>
+  </data>
+  <data name="&gt;&gt;currency2Lbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currency2Lbl.Parent" xml:space="preserve">
+    <value>convertGB</value>
+  </data>
+  <data name="&gt;&gt;currency2Lbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="currency1Lbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currency1Lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 43</value>
+  </data>
+  <data name="currency1Lbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 32</value>
+  </data>
+  <data name="currency1Lbl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="currency1Lbl.Text" xml:space="preserve">
+    <value>руб.</value>
+  </data>
+  <data name="&gt;&gt;currency1Lbl.Name" xml:space="preserve">
+    <value>currency1Lbl</value>
+  </data>
+  <data name="&gt;&gt;currency1Lbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currency1Lbl.Parent" xml:space="preserve">
+    <value>convertGB</value>
+  </data>
+  <data name="&gt;&gt;currency1Lbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="outputTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 40</value>
+  </data>
+  <data name="outputTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="outputTB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="outputTB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;outputTB.Name" xml:space="preserve">
+    <value>outputTB</value>
+  </data>
+  <data name="&gt;&gt;outputTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outputTB.Parent" xml:space="preserve">
+    <value>convertGB</value>
+  </data>
+  <data name="&gt;&gt;outputTB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="convertGB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 109</value>
+  </data>
+  <data name="convertGB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="convertGB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="convertGB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 113</value>
+  </data>
+  <data name="convertGB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="convertGB.Text" xml:space="preserve">
+    <value>Результат конвертации</value>
+  </data>
+  <data name="&gt;&gt;convertGB.Name" xml:space="preserve">
+    <value>convertGB</value>
+  </data>
+  <data name="&gt;&gt;convertGB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;convertGB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;convertGB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="warningLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="warningLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 227</value>
+  </data>
+  <data name="warningLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>507, 72</value>
+  </data>
+  <data name="warningLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;warningLbl.Name" xml:space="preserve">
+    <value>warningLbl</value>
+  </data>
+  <data name="&gt;&gt;warningLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;warningLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;warningLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="inputTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 62</value>
+  </data>
+  <data name="inputTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="inputTB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="inputTB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;inputTB.Name" xml:space="preserve">
+    <value>inputTB</value>
+  </data>
+  <data name="&gt;&gt;inputTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;inputTB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rateLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rateLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="rateLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="rateLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 32</value>
+  </data>
+  <data name="rateLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rateLbl.Text" xml:space="preserve">
+    <value>Курс обмена (руб./$):</value>
+  </data>
+  <data name="&gt;&gt;rateLbl.Name" xml:space="preserve">
+    <value>rateLbl</value>
+  </data>
+  <data name="&gt;&gt;rateLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rateLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rateLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rateInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 9</value>
+  </data>
+  <data name="rateInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="rateInput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rateInput.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;rateInput.Name" xml:space="preserve">
+    <value>rateInput</value>
+  </data>
+  <data name="&gt;&gt;rateInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rateInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rateInput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="eurRubRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="eurRubRB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="eurRubRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 164</value>
+  </data>
+  <data name="eurRubRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 36</value>
+  </data>
+  <data name="eurRubRB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="eurRubRB.Text" xml:space="preserve">
+    <value>Евро в рубли</value>
+  </data>
+  <data name="&gt;&gt;eurRubRB.Name" xml:space="preserve">
+    <value>eurRubRB</value>
+  </data>
+  <data name="&gt;&gt;eurRubRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eurRubRB.Parent" xml:space="preserve">
+    <value>currencyGB</value>
+  </data>
+  <data name="&gt;&gt;eurRubRB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="usdRubRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="usdRubRB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="usdRubRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="usdRubRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 36</value>
+  </data>
+  <data name="usdRubRB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="usdRubRB.Text" xml:space="preserve">
+    <value>Доллары в рубли</value>
+  </data>
+  <data name="&gt;&gt;usdRubRB.Name" xml:space="preserve">
+    <value>usdRubRB</value>
+  </data>
+  <data name="&gt;&gt;usdRubRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;usdRubRB.Parent" xml:space="preserve">
+    <value>currencyGB</value>
+  </data>
+  <data name="&gt;&gt;usdRubRB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rubEurRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rubEurRB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rubEurRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 122</value>
+  </data>
+  <data name="rubEurRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 36</value>
+  </data>
+  <data name="rubEurRB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rubEurRB.Text" xml:space="preserve">
+    <value>Рубли в Евро</value>
+  </data>
+  <data name="&gt;&gt;rubEurRB.Name" xml:space="preserve">
+    <value>rubEurRB</value>
+  </data>
+  <data name="&gt;&gt;rubEurRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rubEurRB.Parent" xml:space="preserve">
+    <value>currencyGB</value>
+  </data>
+  <data name="&gt;&gt;rubEurRB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rubUsdRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rubUsdRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 38</value>
+  </data>
+  <data name="rubUsdRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 36</value>
+  </data>
+  <data name="rubUsdRB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rubUsdRB.Text" xml:space="preserve">
+    <value>Рубли в Доллары</value>
+  </data>
+  <data name="&gt;&gt;rubUsdRB.Name" xml:space="preserve">
+    <value>rubUsdRB</value>
+  </data>
+  <data name="&gt;&gt;rubUsdRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rubUsdRB.Parent" xml:space="preserve">
+    <value>currencyGB</value>
+  </data>
+  <data name="&gt;&gt;rubUsdRB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="currencyGB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 12</value>
+  </data>
+  <data name="currencyGB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 210</value>
+  </data>
+  <data name="currencyGB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="currencyGB.Text" xml:space="preserve">
+    <value>Валюты</value>
+  </data>
+  <data name="&gt;&gt;currencyGB.Name" xml:space="preserve">
+    <value>currencyGB</value>
+  </data>
+  <data name="&gt;&gt;currencyGB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currencyGB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;currencyGB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StaticLbl2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StaticLbl2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StaticLbl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 65</value>
+  </data>
+  <data name="StaticLbl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 32</value>
+  </data>
+  <data name="StaticLbl2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StaticLbl2.Text" xml:space="preserve">
+    <value>Сумма для конвертации:</value>
+  </data>
+  <data name="&gt;&gt;StaticLbl2.Name" xml:space="preserve">
+    <value>StaticLbl2</value>
+  </data>
+  <data name="&gt;&gt;StaticLbl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaticLbl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StaticLbl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="exchangeBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 228</value>
+  </data>
+  <data name="exchangeBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 60</value>
+  </data>
+  <data name="exchangeBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="exchangeBtn.Text" xml:space="preserve">
+    <value>Конвертировать</value>
+  </data>
+  <data name="&gt;&gt;exchangeBtn.Name" xml:space="preserve">
+    <value>exchangeBtn</value>
+  </data>
+  <data name="&gt;&gt;exchangeBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exchangeBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exchangeBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>825, 305</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>APM оператора обменного пункта</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

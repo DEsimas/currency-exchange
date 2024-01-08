@@ -1,0 +1,5 @@
+﻿  Exchange.cpp
+C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\Exchange.h(268,28): warning C4101: 'e': unreferenced local variable
+C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\Exchange.h(305,45): warning C4101: 'e': unreferenced local variable
+  Exchange.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  L5.vcxproj -> C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\x64\Debug\L5.exe

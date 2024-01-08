@@ -1,0 +1,4 @@
+C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\x64\Debug\L5.vcxproj.AssemblyReference.cache
+C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\x64\Debug\L5.exe
+C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\x64\Debug\L5.Exchange.resources
+C:\Users\Serafim\Documents\Programs\mtuci-cpp\L5\x64\Debug\L5.vcxproj.GenerateResource.cache
